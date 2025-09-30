@@ -4,29 +4,35 @@ Este proyecto tiene como objetivo desarrollar una API REST utilizando Flask para
 
 ## Estructura del Proyecto
 
+# Estructura del Proyecto
+
+```plaintext
 mlops-breast-cancer/
 │
-├── model_api/ # Carpeta con la API Flask
-│ ├── app.py # Código de la API en Flask
-│ ├── Dockerfile # Dockerfile para la contenedorización de la API
-│ ├── requirements.txt # Dependencias del proyecto
-│ ├── logs/ # Carpeta de logs (api.log)
-│ └── init.py
+├── model_api/            # Carpeta con la API Flask
+│   ├── app.py            # Código de la API en Flask
+│   ├── Dockerfile        # Dockerfile para la contenedorización de la API
+│   ├── requirements.txt  # Dependencias del proyecto
+│   ├── logs/             # Carpeta de logs (api.log)
+│   └── __init__.py
 │
-├── model/ # Carpeta que contiene el modelo entrenado
-│ └── breast_cancer_model.pkl # Modelo serializado con joblib
+├── model/                # Carpeta que contiene el modelo entrenado
+│   └── breast_cancer_model.pkl  # Modelo serializado con joblib
 │
-├── data/ # Carpeta con el dataset original
-│ └── breast_cancer_data.csv # Dataset de cáncer de mama de Wisconsin
+├── data/                 # Carpeta con el dataset original
+│   └── breast_cancer_data.csv  # Dataset de cáncer de mama de Wisconsin
 │
-├── notebooks/ # Jupyter notebooks para exploraciones y entrenamiento
-│ ├── EDA_data.ipynb # Notebook con el análisis exploratorio de datos
-│ └── Train_model.ipynb # Notebook con el entrenamiento del modelo
+├── notebooks/            # Jupyter notebooks para exploraciones y entrenamiento
+│   ├── EDA_data.ipynb    # Notebook con el análisis exploratorio de datos
+│   └── Train_model.ipynb # Notebook con el entrenamiento del modelo
 │
-├── tests/ # Carpeta con los tests de la API
-│ └── test_api.py # Pruebas automatizadas de la API
+├── tests/                # Carpeta con los tests de la API
+│   └── test_api.py       # Pruebas automatizadas de la API
 │
-└── README.md # Este archivo
+└── README.md             # Este archivo
+
+```
+
 
 
 ## Descripción
