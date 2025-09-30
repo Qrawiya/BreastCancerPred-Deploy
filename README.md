@@ -14,17 +14,17 @@ mlops-breast-cancer/
 │ └── init.py
 │
 ├── model/ # Carpeta que contiene el modelo entrenado
-│ ├── breast_cancer_model.pkl # Modelo serializado con joblib
+│ └── breast_cancer_model.pkl # Modelo serializado con joblib
 │
 ├── data/ # Carpeta con el dataset original
-│ ├── breast_cancer_data.csv # Dataset de cáncer de mama de Wisconsin
+│ └── breast_cancer_data.csv # Dataset de cáncer de mama de Wisconsin
 │
 ├── notebooks/ # Jupyter notebooks para exploraciones y entrenamiento
 │ ├── EDA_data.ipynb # Notebook con el análisis exploratorio de datos
-│ ├── Train_model.ipynb # Notebook con el entrenamiento del modelo
+│ └── Train_model.ipynb # Notebook con el entrenamiento del modelo
 │
 ├── tests/ # Carpeta con los tests de la API
-│ ├── test_api.py # Pruebas automatizadas de la API
+│ └── test_api.py # Pruebas automatizadas de la API
 │
 └── README.md # Este archivo
 
